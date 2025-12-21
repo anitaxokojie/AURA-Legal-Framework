@@ -1,0 +1,36 @@
+Matter,Method,Unit
+401,TextRank,Mexican companies should increase the use of the internet as a distribution channel of their goods and services to the international business community.
+401,TextRank,"Fastow and a handful of associates made more than $7 million
+last year in management fees and about $4 million in capital
+increases on an investment of about $3 million in one of the
+partnerships, the Journal reported today."
+401,TextRank,"National B2C
+Due to the characteristics of the economy, the limited penetration of internet and computers at home B2C will take some time to develop in Mexico."
+401,Hybrid,"Mexican companies are urged to increase their use of the internet for international B2B and B2C trade, aiming to enhance competitiveness despite current national limitations in internet and home computer penetration, supported by improving telephony infrastructure and an open economy."
+401,Hybrid,"Enron faced significant investor concern and a sharp stock decline due to allegations of conflicts of interest involving CFO Andrew Fastow, whose partnerships bought assets from Enron and generated millions in management fees and capital increases for him and his associates."
+401,Hybrid,"EnronOnline maintained steady wholesale trading volumes and counterparty confidence as a market-maker, even as the company's credibility was questioned due to complex, frequently changing trading contracts and a recent decrease in long-term transactions."
+401,LLM (Winner),Enron Chairman Kenneth Lay presented on Mexico's economic growth at the 2001 World Economic Forum.
+401,LLM (Winner),Enron's stock declined amidst market fears regarding further financial disclosures and Wall Street Journal articles.
+401,LLM (Winner),"Enron tracks wholesale trading volumes using 30-day rolling averages, despite recent temporary daily reporting."
+402,TextRank,"Lingering effects 
+David Goodreau, chairman of the 1,000-member Small Manufacturers Association of California, said that if the power crisis is not resolved soon, small businesses could feel the effects long after the lights come back on."
+402,TextRank,"The California Independent System Operator ordered power cut to thousands of homes and businesses throughout the day, operating on the premise that planned inconveniences for thousands are better than rendering the whole power grid unreliable."
+402,TextRank,But smaller businesses are forced to rely on the power grid for their lifeblood of electricity.
+402,Hybrid,"California's power crisis and rolling blackouts disproportionately impact small manufacturers, who are entirely dependent on the grid and lack the backup power systems available to larger corporations."
+402,Hybrid,"These small businesses face substantial financial losses, production halts, and an inability to fulfill orders, risking the loss of contracts to out-of-state competitors and contributing to a negative perception of California's business environment."
+402,Hybrid,"Beyond immediate disruptions, small manufacturers experience lingering effects, safety concerns from sudden, unannounced shut-offs, and an inability to plan due to unpredictable outages, amplifying their difficulties."
+402,LLM (Winner),"Richard Wills reported a $100,000 loss from a rolling blackout at his plant."
+402,LLM (Winner),"D&H Manufacturing, a precision parts company, supplies tech heavyweights like Applied Materials."
+402,LLM (Winner),"An email from October 2001 indicated a crucial attachment, 'Statement &Q&As.doc', was missing."
+403,TextRank,"Through September, however, the California Power Exchange has paid the utility about $1.3 billion over its generating costs for electricity sold into the state's wholesale power market, SCE's Chief Financial Officer Jim Scilacci said Thursday in an interview."
+403,TextRank,"FERC ordered Sierra Pacific to make another compliance filing within 30 days addressing the commission's findings that the rejected compliance filing: 
+- incorporated a deadline only 16 hours in advance; 
+- failed to allow bids by the new generation owners into the California PX's day-ahead market; and 
+- limited the power available in the Nevada market for hourly cost-based service through Sierra Pacific's generation aggregation tariffs."
+403,TextRank,"""Assuming that prices during the summer of 2001 are similar to those experience during the summer of 2000, the unrecovered balance in (purchased power costs) will grow to more than double its current level by the end of August 2001,"" PG&E said in its own filing Wednesday."
+403,Hybrid,"California utilities, including Southern California Edison (SCE) and PG&E, reported billions in unrecovered electricity costs due to market prices exceeding allowed collection rates, despite also generating significant revenue from power sales, which they characterize as not 'profit' but necessary for operational costs and debt repayment."
+403,Hybrid,"The Federal Energy Regulatory Commission (FERC) issued multiple orders concerning market rules and compliance, rejecting proposals from Sierra Pacific and others regarding capacity release deadlines, bidding access for new generation owners, and discriminatory revenue crediting mechanisms, while also mandating that utilities release all transmission import capacity rights into auction."
+403,Hybrid,"Amidst these financial challenges, utilities proposed solutions such as using stranded-asset overcollection to offset revenue shortfalls, contingent on an overall deregulation revision that includes ending the current rate freeze, whereas consumer groups and regulators advocated for using power-sale gains to directly offset electricity purchase losses."
+403,LLM (Winner),California utilities lost $4.6 billion buying market power and selling at regulated rates.
+403,LLM (Winner),"Sales from California utilities' own generators earned $2 billion, offsetting some losses."
+403,LLM (Winner),U.S. FERC issued orders concerning the delayed retail power competition in Nevada.

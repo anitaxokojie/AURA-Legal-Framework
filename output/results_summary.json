@@ -1,0 +1,29 @@
+{
+  "winner": {
+    "extraction": "LLM",
+    "mapping": "Semantic"
+  },
+  "baseline": {
+    "best": 0.6344827586206897,
+    "all": {
+      "Random": 0.5034013605442177,
+      "Keyword": 0.3234323432343234,
+      "TF-IDF": 0.6344827586206897
+    }
+  },
+  "training": {
+    "mean_f1": 0.76264543569194,
+    "std_f1": 0.013140217316302992
+  },
+  "testing": {
+    "mean_f1": 0.40711969507338724,
+    "std_f1": 0.12171176006147053
+  },
+  "analysis": {
+    "improvement_pct": 20.199552364490533,
+    "generalization_gap": 0.35552574061855274,
+    "sample_size": 500,
+    "n_train_chunks": 3,
+    "n_test_chunks": 6
+  }
+}
