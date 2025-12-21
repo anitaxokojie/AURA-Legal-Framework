@@ -1,0 +1,11 @@
+# Security
+.env
+.ipynb_checkpoints/
+__pycache__/
+
+# Data (Too big for GitHub)
+data/
+pipeline_cache/
+
+# System
+.DS_Store
