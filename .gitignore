@@ -1,9 +1,17 @@
+# Security
 .env
+
+# Python & Jupyter
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Application Cache
 pipeline_cache/
 *.pkl
+
+# IDE & System
 .DS_Store
 Thumbs.db
 .vscode/
