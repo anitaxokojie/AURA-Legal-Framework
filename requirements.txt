@@ -1,0 +1,12 @@
+google-generativeai
+rank_bm25
+sentence-transformers
+networkx
+pandas
+numpy
+scikit-learn
+python-dotenv
+matplotlib
+seaborn
+scipy
+nltk
