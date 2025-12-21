@@ -1,11 +1,10 @@
-# Security
 .env
-.ipynb_checkpoints/
 __pycache__/
-
-# Data (Too big for GitHub)
-data/
+*.pyc
+.ipynb_checkpoints/
 pipeline_cache/
-
-# System
+*.pkl
 .DS_Store
+Thumbs.db
+.vscode/
+.idea/
