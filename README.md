@@ -127,6 +127,7 @@ jupyter notebook aura_pipeline.ipynb
 *   **UI/UX:** Build a React-based frontend for attorneys to explore "Atomic Units" visually before committing to a review strategy.
 
 ---
+
 **License:** MIT License.
 **Contact:** Anita Okojie  | www.linkedin.com/in/anitaxo | anitaxokojie@gmail.com
 
