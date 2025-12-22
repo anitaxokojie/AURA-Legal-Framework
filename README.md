@@ -104,8 +104,8 @@ cd aura-legal-framework
 pip install -r requirements.txt
 ```
 
-```bash
 ### Configuration
+```bash
 # Copy the template
 cp .env.template .env
 
@@ -113,8 +113,9 @@ cp .env.template .env
 GOOGLE_API_KEY=your_key_here
 ```
 
-```bash
+
 ### Run the Pipeline
+```bash
 jupyter notebook aura_pipeline.ipynb
 
 ```
