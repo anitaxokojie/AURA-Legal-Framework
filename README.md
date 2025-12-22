@@ -90,7 +90,7 @@ The pipeline simulates a response to three distinct production requests (Topics)
 ## 8. What I Learned
 *   **Good:** Stratified sampling is essential for maintaining class balance in legal datasets where "Relevant" documents are rare (often <10%).
 *   **Challenge:** API rate limits are real. I had to implement robust **exponential backoff** and retry logic to keep the pipeline stable during batch processing.
-*   **Reality Check (Domain Shift):** The model performed great on the training case (Financial Fraud) but showed a performance drop on test cases (Energy Regulation). This confirms that legal relevance is highly domain-specific. In production, this system would require **Few-Shot Tuning** per case rather than a universal Zero-Shot model.
+*   **Reality Check (Domain Shift):** The model performed great on the training case (Enrononline) but showed a performance drop on test cases (Energy Regulation). This confirms that legal relevance is highly domain-specific. In production, this system would require **Few-Shot Tuning** per case rather than a universal Zero-Shot model.
 
 ## 9. Getting Started
 
