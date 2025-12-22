@@ -114,14 +114,20 @@ GOOGLE_API_KEY=your_key_here
 jupyter notebook aura_pipeline.ipynb
 
 ```
-## 10. Context & Future Work
-*   **Role:** Solo Research Project
-*   **Timeline:** ~3 weeks
-*   **Future Improvements:** Implement an "Active Learning" loop where real attorney feedback updates the model weights in real-time, and build a React frontend for document exploration.
+
+## 10. Project Context
+*   **Type:** Industry Field Project
+*   **Affiliation:** Developed in collaboration with a US Legal Tech company (Elevate).
+*   **Timeline:** 5 Months
+*   **Role:** NLP Research Engineer
+
+### Future Roadmap
+*   **Active Learning:** Implement a feedback loop where real attorney judgments update the model's decision boundary in real-time.
+*   **Deployment:** Containerize the pipeline (Docker) and expose via FastAPI for integration into existing e-Discovery platforms.
+*   **UI/UX:** Build a React-based frontend for attorneys to explore "Atomic Units" visually before committing to a review strategy.
 
 ---
-**License:** MIT License. Feel free to use for research.
-**Contact:** Anita Okojie | www.linkedin.com/in/anitaxo | anitaxokojie
+**License:** MIT License.
+**Contact:** Anita Okojie  | www.linkedin.com/in/anitaxo | anitaxokojie@gmail.com
 
-*Built with ☕* and way too many API retry attempts
-
+*Built with ☕* and way too many API retry attmepts
