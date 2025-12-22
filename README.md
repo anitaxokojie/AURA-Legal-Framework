@@ -66,6 +66,7 @@ aura-legal-framework/
     ├── pipeline_metrics.csv   # Experimental results data
     ├── results_summary.json   # Aggregated metrics
     └── qualitative_samples.csv # Comparison of LLM vs Hybrid outputs
+```
 
 ## 6. Architecture: Vector-Based Relevance Propagation
 The AURA framework moves beyond simple boolean search by implementing a continuous relevance ranking engine.
