@@ -1,6 +1,6 @@
 # Dataset Information: NIST TREC 2011 Legal Track
 
-** Note:** This repository contains a **small sample subset** of the dataset for demonstration purposes.
+** Note: ** This repository contains a **small sample subset** of the dataset for demonstration purposes.
 
 ## Background
 The full dataset used for this project comes from the **NIST TREC 2011 Legal Track (Learning Task)**, which uses the **Enron Email Corpus** (EDRM Version 2). It is an industry-standard benchmark for evaluating Information Retrieval (IR) and e-Discovery systems.
