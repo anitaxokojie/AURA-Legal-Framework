@@ -113,6 +113,7 @@ GOOGLE_API_KEY=your_key_here
 ### Run the Pipeline
 jupyter notebook aura_pipeline.ipynb
 
+```
 ## 10. Context & Future Work
 *   **Role:** Solo Research Project
 *   **Timeline:** ~3 weeks
