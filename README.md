@@ -129,7 +129,7 @@ jupyter notebook aura_pipeline.ipynb
 ---
 
 
-**License:** MIT License.
+**License:** MIT License
 **Contact:** Anita Okojie  | www.linkedin.com/in/anitaxo | anitaxokojie@gmail.com
 
 *Built with☕*and way too many API retry attmepts
