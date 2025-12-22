@@ -30,6 +30,11 @@ I benchmarked the pipeline against standard baselines on the NIST TREC dataset.
 
 > **Business Impact:** With 74% precision, an attorney reviewing 1,000 documents flagged by the system would find ~740 actually relevant ones, versus having to review 2,000+ documents manually to find the same amount.
 
+### Performance Visualizations
+![Pipeline Performance](output/pipeline_performance.png)
+*Figure 1: (Top Left) Training stability comparisons showing LLM+Semantic dominance. (Top Right) Generalization gap across legal matters. (Bottom) Optimization surface heatmap identifying the winning architecture.*
+
+
 ## 3. How It Works
 The pipeline follows a three-step process to filter noise and identify signal:
 
