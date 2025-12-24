@@ -125,11 +125,14 @@ jupyter notebook aura_pipeline.ipynb
 
 ```
 
-## 10. Project Context
-*   **Type:** Industry Field Project
-*   **Affiliation:** Developed in collaboration with a US Legal Tech company (Elevate).
-*   **Timeline:** 5 Months
-*   **Role:** NLP Research Engineer
+## Project Context
+**Type:** Industry Field Project (Academic)  
+**Duration:** 5 months (May 205 - September 2025)  
+**Industry Partner:** Elevate Law (US Legal Tech)  
+**Collaboration Model:** Proof-of-concept developed with guidance from Elevate's Managing Director. Problem scope and dataset access provided by industry partner; implementation and evaluation conducted independently.  
+**Deployment Status:** Research prototype.
+
+*Available reference upon request from industry partner.*
 
 ### Future Roadmap
 *   **Active Learning:** Implement a feedback loop where real attorney judgments update the model's decision boundary in real-time.
