@@ -40,7 +40,7 @@ The pipeline follows a three-step process to filter noise and identify signal:
 
 1.  **Extract Themes:** Use Google's Gemini LLM to pull out high-level concepts ("Atomic Units").
 2.  **Map to Documents:** Use semantic embeddings (`all-MiniLM-L6-v2`) to find documents related to those themes via Cosine Similarity.
-3.  **Optimize:** Test all boolean combinations ($2^n$) of themes against ground-truth data (Simulated Attorney Feedback) to find the optimal query set.
+3.  **Optimize:** Test all boolean combinations ($2^n$) of themes against ground-truth data to find the optimal query set. 
 
 ## 4. Key Technical Decisions
 
