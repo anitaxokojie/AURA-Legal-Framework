@@ -102,8 +102,8 @@ The pipeline simulates a response to three distinct production requests (Topics)
 ### Prerequisites
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/aura-legal-framework.git
-cd aura-legal-framework
+git clone https://github.com/anitaxokojie/AURA-Legal-Framework.git
+cd AURA-Legal-Framework
 
 # Install dependencies
 pip install -r requirements.txt
