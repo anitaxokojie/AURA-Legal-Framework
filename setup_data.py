@@ -15,7 +15,6 @@ def download_data():
     
     print(" Downloading AURA sample data from GitHub Releases...")
     
-    # REPLACE THIS URL after you create the GitHub Release (Step 5)
     download_url = "https://github.com/user-attachments/files/24376497/aura_sample_data.zip"
     
     zip_path = Path("aura_sample_data.zip")
