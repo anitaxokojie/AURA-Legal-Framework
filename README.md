@@ -102,29 +102,44 @@ The pipeline simulates a response to three distinct production requests (Topics)
 ## 9. Getting Started
 
 ### Prerequisites
-```bash
-# Clone the repo
-git clone https://github.com/anitaxokojie/AURA-Legal-Framework.git
-cd AURA-Legal-Framework
 
-# Install dependencies
-pip install -r requirements.txt
+1. Clone this repository:
+```
+   git clone https://github.com/anitaxokojie/AURA-Legal-Framework.git
 ```
 
-### Configuration
-```bash
-# Copy the template
-cp .env.template .env
+2. Install dependencies:
+```
+   pip install -r requirements.txt
+```
 
-# Edit .env and add your Google API Key
+### Download Sample Data
+
+Run this command to download the TREC dataset:
+```
+python setup_data.py
+```
+
+This downloads ~5MB from [GitHub Releases](https://github.com/anitaxokojie/AURA-Legal-Framework/releases) and creates:
+- `data/matter401/` - Training set
+- `data/matter402/` - Test set
+- `data/matter403/` - Test set
+
+### Configuration
+
+Copy the template and add your API key:
+```
+cp .env.template .env
+```
+
+Then edit `.env` and add:
+```
 GOOGLE_API_KEY=your_key_here
 ```
 
-
 ### Run the Pipeline
-```bash
+```
 jupyter notebook aura_pipeline.ipynb
-
 ```
 
 ## Project Context
