@@ -35,6 +35,45 @@ I benchmarked the pipeline against standard baselines on the NIST TREC dataset.
 *Figure 1: (Top Left) Training stability comparisons showing LLM+Semantic dominance. (Top Right) Generalization gap across legal matters. (Bottom) Optimization surface heatmap identifying the winning architecture.*
 
 
+## Code Architecture
+### Core Pipeline Components
+
+**1. LLM-Based Theme Extraction**
+```python
+def extract_atomic_units(text, model):
+    """Extract legal themes using Google Gemini"""
+    prompt = f"""Extract key legal themes from this document.
+    Focus on: entities, dates, dollar amounts, legal issues.
+    Document: {text}"""
+    
+    response = model.generate_content(prompt)
+    return response.text
+```
+
+**2. Semantic Document Ranking**
+```python
+# Encode themes and documents into 384-dim vectors
+theme_embeddings = model.encode(atomic_units)
+doc_embeddings = model.encode(documents)
+
+# Calculate cosine similarity scores
+similarity_scores = cosine_similarity(theme_embeddings, doc_embeddings)
+
+# Rank documents by relevance
+ranked_docs = np.argsort(similarity_scores)[::-1]
+```
+
+**3. Combinatorial Optimization**
+```python
+# Test all 2^n combinations of themes
+best_f1 = 0
+for theme_combo in itertools.product([0,1], repeat=n_themes):
+    relevant_docs = get_docs_matching_themes(theme_combo)
+    f1 = calculate_f1(relevant_docs, ground_truth)
+    if f1 > best_f1:
+        best_combination = theme_combo
+```
+
 ## 3. How It Works
 The pipeline follows a three-step process to filter noise and identify signal:
 
