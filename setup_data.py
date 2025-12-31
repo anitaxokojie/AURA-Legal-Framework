@@ -15,7 +15,7 @@ def download_data():
     
     print(" Downloading AURA sample data from GitHub Releases...")
     
-    download_url = "https://github.com/anitaxokojie/AURA-Legal-Framework/releases/download/v1.0-data/aura_sample_data.zip""
+    download_url = "https://github.com/anitaxokojie/AURA-Legal-Framework/releases/download/v1.0-data/aura_sample_data.zip"
     
     zip_path = Path("aura_sample_data.zip")
     
