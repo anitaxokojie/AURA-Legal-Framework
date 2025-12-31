@@ -2,6 +2,7 @@
 ### Automated Legal e-Discovery Optimization using LLMs & Combinatorial Search
 
 ![Status](https://img.shields.io/badge/Status-Completed-success) ![Python](https://img.shields.io/badge/Python-3.9%2B-blue) ![GenAI](https://img.shields.io/badge/GenAI-Google%20Gemini-orange)
+
 **Quick Links:** 
 [View Notebook](https://nbviewer.org/github/anitaxokojie/AURA-Legal-Framework/blob/main/aura_pipeline.ipynb) | [Results](#2-quick-results) | [How It Works](#3-how-it-works) | [Getting Started](#9-getting-started) | 
 
