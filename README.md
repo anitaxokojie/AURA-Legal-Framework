@@ -163,4 +163,4 @@ jupyter notebook aura_pipeline.ipynb
 
 **Contact:** Anita Okojie  | www.linkedin.com/in/anitaxo | anitaxokojie@gmail.com
 
-**Built with☕** and way too many API retry attmepts
+**Built with☕** and way too many API retry attempts
