@@ -2,6 +2,8 @@
 ### Automated Legal e-Discovery Optimization using LLMs & Combinatorial Search
 
 ![Status](https://img.shields.io/badge/Status-Completed-success) ![Python](https://img.shields.io/badge/Python-3.9%2B-blue) ![GenAI](https://img.shields.io/badge/GenAI-Google%20Gemini-orange)
+[View Notebook](https://nbviewer.org/github/anitaxokojie/AURA-Legal-Framework/blob/main/aura_pipeline.ipynb) | [Results](#2-quick-results) | [How It Works](#3-how-it-works) | [Getting Started](#9-getting-started) | 
+
 
 **Tech Stack:** Python, Google Gemini API, NetworkX, SentenceTransformers, Scikit-Learn
 **Dataset:** NIST TREC 2011 Legal Track (~4,500 Document Sample)
