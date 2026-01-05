@@ -30,7 +30,7 @@ I benchmarked the pipeline against standard baselines on the NIST TREC dataset.
 | Keyword Search | 0.323 | -- | -- |
 | TF-IDF (Traditional) | 0.634 | 63% | 66% |
 | **AURA (This Project)** | **0.763** | **74%** | **75%** |
-| **Improvement** | **+20.3%** | -- | -- |
+| **Improvement** | **+20.2%** | -- | -- |
 
 > **Business Impact:** With 74% precision, an attorney reviewing 1,000 documents flagged by the system would find ~740 actually relevant ones, versus having to review 2,000+ documents manually to find the same amount.
 
