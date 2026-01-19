@@ -187,7 +187,7 @@ jupyter notebook aura_pipeline.ipynb
 
 ## Project Context
 **Type:** Industry Field Project (Academic)  
-**Duration:** 5 months (May 205 - September 2025)  
+**Duration:** 6 months (April 2025 - September 2025)  
 **Industry Partner:** Elevate Law (US Legal Tech)  
 **Collaboration Model:** Proof-of-concept developed with guidance from Elevate's Managing Director. Problem scope and dataset access provided by industry partner; implementation and evaluation conducted independently.  
 **Deployment Status:** Research prototype.
